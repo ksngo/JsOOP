@@ -1,0 +1,19 @@
+html
+  head
+    title= title
+    link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous")
+  body
+    ul.nav.flex-column
+      li.nav-item
+        a.nav-link(href="/sendFile") /sendFile 
+        span app.get('/sendFile')
+      li.nav-item
+        a.nav-link(href="/static") /static
+        span app.use('/static'), serving static files in express
+    br
+    br
+    div.container
+      h1="header1"
+      h4 #{message}
+      p #{time}
+      p moment() is imported, used and processed in the server side. Then, time is passed to pug.

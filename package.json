@@ -1,0 +1,25 @@
+{
+  "name": "jsoop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksngo/JsOOP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksngo/JsOOP/issues"
+  },
+  "homepage": "https://github.com/ksngo/JsOOP#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.7",
+    "pug": "^3.0.2"
+  }
+}
