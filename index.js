@@ -13,6 +13,7 @@ app.get('/sendFile', (req,res)=>{
     res.sendFile(path.join(__dirname+'/express/index.html'))
 })
 
+// I want to use moment on the backend which is much easier than if i try using passing modules of moment to the frontend
 app.get('/render', (req,res)=>{
     res.render('myview', { title : "mytitle" , message : "res.render(<pug file>, data)" , time: moment().format('MMMM Do YYYY, h:mm:ss a')})
 })

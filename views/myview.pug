@@ -2,6 +2,18 @@ html
   head
     title= title
     link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous")
+    script.
+      console.log("***Hello I have placed a script in pug template")
+      function testF(){ return this; }
+      console.log(testF());
+      var testFCopy = testF;
+      console.log(testFCopy());
+      var testObj = {
+      testObjFunc: testF
+      };
+      console.log(testObj.testObjFunc ());
+      console.log("***End of script inside pug template")
+    script(src='static/script.js')
   body
     ul.nav.flex-column
       li.nav-item
