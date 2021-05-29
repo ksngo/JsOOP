@@ -12,3 +12,5 @@
 4. execution & compilation phase (Hoisting)
 5. function declaration and function expression
 6. Constructor
+7. Regex
+8. underscore
