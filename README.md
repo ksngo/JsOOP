@@ -14,3 +14,6 @@
 6. Constructor
 7. Regex
 8. underscore
+9. factory pattern (object creation)
+10. decorator pattern
+11. Jasmine
