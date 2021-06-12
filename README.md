@@ -21,3 +21,5 @@
 13. request module
 14. setInterval & setTimeout
 15. event module and telnet
+16. creating modules with commonJS
+17. using modules with commonJS
