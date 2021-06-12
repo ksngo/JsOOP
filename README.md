@@ -17,3 +17,7 @@
 9. factory pattern (object creation)
 10. decorator pattern
 11. Jasmine
+12. Node Server
+13. request module
+14. setInterval & setTimeout
+15. event module and telnet
