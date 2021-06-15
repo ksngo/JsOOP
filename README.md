@@ -23,3 +23,4 @@
 15. event module and telnet
 16. creating modules with commonJS
 17. using modules with commonJS
+18. basic constructor without class and sub-class
