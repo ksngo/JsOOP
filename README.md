@@ -24,4 +24,5 @@
 16. creating modules with commonJS
 17. using modules with commonJS
 18. basic constructor without class and sub-class
-19. python public,protected, private attributes, getter for private, setter on private
+19. python public,protected, private attributes, getter for private, setter on private, explore immutable
+20. Javascript getter, setter for private attributes in function, explore immutable
