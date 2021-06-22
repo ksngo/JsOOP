@@ -19,7 +19,7 @@ class DogPrivate:
         self.__sex = sex # __ means it's private attribute
         self.__favourite_food = favourite_food
     
-    def addAge(self, toadd): # this is a public method
+    def addAge(self, toadd): # this is a public method , @property is prefered to set the age.
         self.__age = self.__age + toadd
 
     def addAgeForImmutableClass(self, toadd): # if want an immutable class, this will totally create a new instance so that the original instance is not mutated. 
