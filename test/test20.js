@@ -13,7 +13,7 @@ function Cat(name, sex){ //constructor function
     }
     console.log(detailsPrivate()) // only can use private function inside the Cat function.
 
-    // TO MAKE PRIVATE AVAILABLE READ PUBLICLY
+    // TO MAKE PRIVATE AVAILABLE READ PUBLICLY , basically it makes _hobbyMakePublic available in this
     Object.defineProperty(this, '_hobbyMakePublic', {get : function(){ return _hobbyMakePublic}}); 
     // TO MAKE PRIVATE AVAILBLE READ AND SET PUBLICLY
     Object.defineProperty(this, '_colorMakePublic', {get : ()=> _colorMakePublic , set: (value)=>{ _colorMakePublic = value}});
