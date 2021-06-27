@@ -28,3 +28,4 @@
 20. Javascript getter, setter for private attributes in function, explore immutable
 21. inheritance python
 22. inheritance javascript, prototype chain
+23. multiple base classes python
