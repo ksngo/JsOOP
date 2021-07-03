@@ -31,3 +31,4 @@
 23. multiple base classes python
 24. Object that composed of multiple objects javascript
 25. duck typing python
+26. duck typing javascript
