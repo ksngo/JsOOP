@@ -1,6 +1,5 @@
 # base class
-
-class ComicCharacter:
+class ComicCharacter:    
     def __init__(self, nick_name):
         self._nick_name = nick_name
     
@@ -13,6 +12,7 @@ class ComicCharacter:
 
     def draw_thought_balloon(self, message):
         pass
+
 
 class GameCharacter:
     def __init__(self, full_name, initial_score, x, y):
@@ -87,7 +87,7 @@ class AngryDog(ComicCharacter):
 
 class AngryCat(ComicCharacter, GameCharacter):
     def __init__(self, nick_name, age, full_name, initial_score, x, y):
-        ComicCharacter.__init__(self,nick_name) # not using super() , and also pass self as first argument
+        ComicCharacter.__init__(self,nick_name) # not using super() due more than a class of inheritance , and also pass self as first argument
         GameCharacter.__init__(self,full_name, initial_score, x, y)
         self.age = age
     
