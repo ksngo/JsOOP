@@ -3,12 +3,12 @@ import random
 
 class Animal:
     dance_characters = "" # the subclasses of Animal will override these class attributes
-    spelled_cound_1 = ""
-    spelled_sound_2 = ""
+    spelled_sound_1 = "" # this is class attributes, to refer to class attributes, use type(self)
+    spelled_sound_2 = "" # usually declare as class attributes so that the subclasses of Animal will override these attributes
     spelled_sound_3 = ""
 
     def __init__(self, name):
-        self._name = name
+        self._name = name # this attribute is initialise to instance 
     
     @property
     def name(self):
@@ -46,9 +46,8 @@ class Animal:
         ))
 
 
-
-class Dog(Animal):
-    dance_characters = "/-\ \-\ /-/"
+class Dog(Animal): # Dog class inheriting from Animal Class
+    dance_characters = "/-\ \-\ /-/" # will overide the attributes in Animal class
     spelled_sound_1 = "Woof"
     spelled_sound_2 = "Woooof"
     spelled_sound_3 = "Grr"
